@@ -25,6 +25,9 @@ io.on("connection", (socket) => {
     socket.on("disconnect", () => { console.log("User Disconnected") })
 });
 
+app.get('/', (req, res) => {
+    res.send("GET Request Called")
+})
 server.listen(5000, () => {
     console.log("Server running on 5000");
 });
