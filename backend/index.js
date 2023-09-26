@@ -26,7 +26,7 @@ io.on("connection", (socket) => {
 });
 
 app.get('/', (req, res) => {
-    res.send("GET Request Called")
+    res.send("Backend server is running ")
 })
 server.listen(5000, () => {
     console.log("Server running on 5000");
