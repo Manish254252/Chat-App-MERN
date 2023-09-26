@@ -5,7 +5,7 @@ import Chat from './components/chat';
 
 
 
-const socket = io("https://chat-app-node-kf4x.onrender.com/");
+const socket = io("https://chat-app-node-kf4x.onrender.com");
 
 export default function App() {
 
